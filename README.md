@@ -4,9 +4,8 @@
 Для параллельно запуска необходимо добавить в конфигурацию запуска параметр
 ```
 -Djunit.jupiter.execution.parallel.enabled=true
- Для получения Allure отчета необходимо прописать в Execute Maven Goal
 
-```
+Для получения Allure отчета необходимо прописать в Execute Maven Goal
 mvn allure:serve
  ```bash
  
